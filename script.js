@@ -103,7 +103,6 @@ async function getInshore() {
         const response = await fetch('inshore.json?version=002');
         if (response.ok) {
             data = await response.json();
-            //console.log(data);
             putFleetOptions();
             addToStorage("race", "inshore");
         } else {
@@ -121,7 +120,6 @@ async function getOffshore() {
         const response = await fetch('offshore.json?version=002');
         if (response.ok) {
             data = await response.json();
-            //console.log(data);
             putFleetOptions();
         } else {
             console.log('no bueno - json did not get fetched');
@@ -184,7 +182,6 @@ function setFleet(x) {
     // if boat exists in localStorage
     if (chosenBoat) {
         // select the item matching the id of the boat
-        console.log(boatSelect);
         boatSelect.selectedIndex = chosenBoatID;
         calcDPM(chosenBoat);
     }
@@ -335,7 +332,6 @@ function calcCorrected(c, r, t) {
 /* calculate rating delta */
 function calcCorrectedDelta(x, y, z) {
     const tcfd = x / (coeff + y);
-    //console.log(x, y, 'SJs corrected time:', z, 'tcfd:', tcfd);
     return tc = z / tcfd;
 }
 
