@@ -1,0 +1,67 @@
+{
+    "A": 
+    [
+        {
+            "name": "Mongoose",
+            "rating": 60
+        },
+        {
+            "name": "Bobsled",
+            "rating": 69
+        },
+        {
+            "name": "Berzerker",
+            "rating": 69
+        },
+        {
+            "name": "Gong Show",
+            "rating": 93
+        },
+        {
+            "name": "Bella",
+            "rating": 69
+        },
+        {
+            "name": "Northern Harrier",
+            "rating": 66
+        }
+    ],
+    "B": 
+    [
+        {
+            "name": "Straight Jacket",
+            "rating": 108
+        },
+        {
+            "name": "Rumba",
+            "rating": 126
+        },
+        {
+            "name": "Flying Circus",
+            "rating": 135
+        },
+        {
+            "name": "Eclipse",
+            "rating": 132
+        },
+        {
+            "name": "Tethani",
+            "rating": 132
+        }
+    ],
+    "C": 
+    [
+        {
+            "name": "Felucca",
+            "rating": 165
+        },
+        {
+            "name": "Final Mile",
+            "rating": 171
+        },
+        {
+            "name": "Air Aura",
+            "rating": 168
+        }
+    ]
+}

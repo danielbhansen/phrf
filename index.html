@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TBYC PHRF Calculator</title>
+    <link rel="manifest" href="manifest.json?version=0001">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body cz-shortcut-listen="true">
+    <div id="app">
+        <h1>TBYC PHRF TOT Calculator</h1>
+        <label for="fleet">Choose your fleet: </label>
+        <select name="fleet" id="fleet">
+            <option value="" selected="selected">Please choose a fleet</option>
+        </select>
+        <div class="choose-boat hidden">
+            <label for="boat-choice">Choose your boat: </label>
+            <select name="boat-choice" id="boat-choice">
+                <option value="" selected="selected">Please choose a boat</option>
+            </select>
+        </div>
+        <div class="dpm"></div>
+        <form class="form hidden">
+            <label>Enter Your Race Elapsed Time (hh:mm:ss): </label><br>
+            <div class="digits">
+            <input type="number" min="0" max="99" placeholder="00" name="elapsedHours" id="elapsedHours" required=""><span class="colon">:</span><input type="number" min="0" max="59" placeholder="00" name="elapsedMins" id="elapsedMins" required=""><span class="colon">:</span><input type="number" min="0" max="59" placeholder="00" name="elapsedSecs" id="elapsedSecs" required="">
+           <!-- <input type="text" name="elapsed" id="elapsed" placeholder="00:00:00">-->
+            <input type="submit" value="Calculate!"></div>
+        </form>
+        <div class="message"></div>
+        <div class="output"></div>
+        <p class="qualification"><small>NOTE: All calculations are for estimation purposes only, and are not official race results.</small></p>
+    </div>
+    <script src="script.js"></script>
+
+</body></html>

@@ -1,0 +1,19 @@
+{
+    "name": "TBYC TOT PHRF Calculator",
+    "short_name": "TBYC TOT PHRF",
+    "description": "A calculator for determining competitive deltas based on your elapsed race time.",
+    "theme_color": "#ffffff",
+    "background_color": "#062f6c",
+    "display": "fullscreen",
+    "orientation": "portrait",
+    "id": "http://localhost:8888/personal/phrf/",
+    "scope": "http://localhost:8888/personal/phrf/",
+    "start_url": "http://localhost:8888/personal/phrf/",
+    "icons": [
+      {
+        "src": "icon.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+  ]
+  }
