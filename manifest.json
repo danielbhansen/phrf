@@ -6,9 +6,9 @@
     "background_color": "#062f6c",
     "display": "fullscreen",
     "orientation": "portrait",
-    "id": "http://localhost:8888/personal/phrf/",
-    "scope": "http://localhost:8888/personal/phrf/",
-    "start_url": "http://localhost:8888/personal/phrf/",
+    "id": "https://danielbhansen.github.io/phrf/",
+    "scope": "https://danielbhansen.github.io/phrf/",
+    "start_url": "https://danielbhansen.github.io/phrf/",
     "icons": [
       {
         "src": "icon.png",

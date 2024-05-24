@@ -1,11 +1,11 @@
 const phrfApp = "phrf-v1"
 const assets = [
-  "https://tbyc.on.ca/phrf/",
-  "https://tbyc.on.ca/phrf/index.html",
-  "https://tbyc.on.ca/phrf/style.css",
-  "https://tbyc.on.ca/phrf/script.js",
-  "https://tbyc.on.ca/phrf/icon.png",
-  "https://tbyc.on.ca/phrf/boats.json"
+  "https://danielbhansen.github.io/phrf/",
+  "https://danielbhansen.github.io/phrf/index.html",
+  "https://danielbhansen.github.io/phrf/style.css",
+  "https://danielbhansen.github.io/phrf/script.js",
+  "https://danielbhansen.github.io/phrf/icon.png",
+  "https://danielbhansen.github.io/phrf/inshore.json"
 ]
 
 self.addEventListener("install", installEvent => {
