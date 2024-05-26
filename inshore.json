@@ -2,15 +2,15 @@
     "A": 
     [
         {
-            "name": "Mongoose",
-            "rating": 60
-        },
-        {
-            "name": "Bobsled",
-            "rating": 72
+            "name": "Bella",
+            "rating": 69
         },
         {
             "name": "Berzerker",
+            "rating": 72
+        },
+        {
+            "name": "Bobsled",
             "rating": 72
         },
         {
@@ -18,8 +18,8 @@
             "rating": 93
         },
         {
-            "name": "Bella",
-            "rating": 69
+            "name": "Mongoose",
+            "rating": 60
         },
         {
             "name": "Northern Harrier",
@@ -29,20 +29,20 @@
     "B": 
     [
         {
-            "name": "Straight Jacket",
-            "rating": 108
-        },
-        {
-            "name": "Rumba",
-            "rating": 126
+            "name": "Eclipse",
+            "rating": 132
         },
         {
             "name": "Flying Circus",
             "rating": 135
         },
         {
-            "name": "Eclipse",
-            "rating": 132
+            "name": "Rumba",
+            "rating": 126
+        },
+        {
+            "name": "Straight Jacket",
+            "rating": 108
         },
         {
             "name": "Tethani",
@@ -52,16 +52,17 @@
     "C": 
     [
         {
+            "name": "Air Aura",
+            "rating": 168
+        },
+        {
             "name": "Felucca",
             "rating": 165
         },
         {
             "name": "Final Mile",
             "rating": 171
-        },
-        {
-            "name": "Air Aura",
-            "rating": 168
         }
+
     ]
 }
