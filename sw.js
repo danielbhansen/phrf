@@ -1,4 +1,4 @@
-const phrfApp = "phrf-v1"
+const phrfApp = "phrf-v2.1"
 const assets = [
   "https://danielbhansen.github.io/phrf/",
   "https://danielbhansen.github.io/phrf/index.html",
@@ -13,6 +13,18 @@ self.addEventListener("install", installEvent => {
     caches.open(phrfApp).then(cache => {
       cache.addAll(assets)
     })
+  )
+})
+
+self.addEventListener("activate", event => {
+  event.waitUntil(
+    caches.keys().then(keys => Promise.all(
+      keys.map(key => {
+        if (key !== phrfApp) {
+          return caches.delete(key);
+        }
+      })
+    ))
   )
 })
 
