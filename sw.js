@@ -1,6 +1,5 @@
-const phrfApp = "phrf-v2.1"
+const phrfApp = "phrf-v2.1.1"
 const assets = [
-  "https://danielbhansen.github.io/phrf/",
   "https://danielbhansen.github.io/phrf/index.html",
   "https://danielbhansen.github.io/phrf/style.css",
   "https://danielbhansen.github.io/phrf/script.js",
