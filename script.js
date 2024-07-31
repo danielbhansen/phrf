@@ -298,7 +298,7 @@ function calcAll(cf, tx) {
         if (boat.name === chosenBoat) {
             corr = corrected;
             rat = boat.rating;
-            output.insertAdjacentHTML('beforeend', `<h2>Submitted Time: ${subTime}</h2><h3>Your corrected time is ${c1}</h3>`);
+            output.insertAdjacentHTML('beforeend', `<p>Submitted Time:</p><h2>${subTime}</h2><h3>Your corrected time is: ${c1}</h3>`);
         }
     });
     compArray.forEach(comp => {
