@@ -9,12 +9,23 @@ h1, h2, h3, h4 {
 h1 {
     font-size: 1.2rem;
     margin-bottom: 1.5em;
+    color: #7fa5dd;
 }
 h2 {
-    font-size: 2rem;
+    font-size: 2.2rem;
+}
+.dpm h2 {
+    margin-bottom: 0;
 }
 .output h2 {
     margin-top: 0;
+    color: #062f6c;
+}
+.dpm p:first-of-type {
+    margin-top: 0.25em;
+}
+.output h3 {
+    color: #000;
 }
 .output p {
     margin-top: 2em;
@@ -29,7 +40,7 @@ select, input {
 label {
     margin-right: 0.5em;
 }
-strong, h3, h4 {
+strong, h3, h4, .corrected {
     color: #062f6c;
 }
 .qualification {
@@ -74,7 +85,7 @@ table {
 td, th {
     padding: 0.5em;
     text-align: left;
-    border-bottom: 1px solid #7fa5dd;
+    border-bottom: 1px solid #a6c4f0;
 }
 .choose-boat {
     margin-top: 1.5em;
@@ -93,7 +104,7 @@ td, th {
     color: #eeedec;
 }
 .deltas {
-    background: #437ed7;
+    background: #76a9f6;
     color: #232323;
 }
 .times {
