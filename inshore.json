@@ -15,7 +15,7 @@
         },
         {
             "name": "Gong Show",
-            "rating": 93
+            "rating": 87
         },
         {
             "name": "Mongoose",
@@ -56,6 +56,14 @@
             "rating": 168
         },
         {
+            "name": "Andiamo",
+            "rating": 189
+        },
+        {
+            "name": "Blade Runner",
+            "rating": 213
+        },
+        {
             "name": "Felucca",
             "rating": 165
         },
@@ -63,6 +71,7 @@
             "name": "Final Mile",
             "rating": 171
         }
+
 
     ]
 }
