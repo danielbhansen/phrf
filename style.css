@@ -9,7 +9,7 @@ h1, h2, h3, h4 {
 h1 {
     font-size: 1.2rem;
     margin-bottom: 1.5em;
-    color: #7fa5dd;
+    color: #7F8CAA;
 }
 h2 {
     font-size: 2.2rem;
@@ -19,7 +19,7 @@ h2 {
 }
 .output h2 {
     margin-top: 0;
-    color: #062f6c;
+    color: #333446;
 }
 .dpm p:first-of-type {
     margin-top: 0.25em;
@@ -41,10 +41,10 @@ label {
     margin-right: 0.5em;
 }
 strong, h3, h4, .corrected {
-    color: #062f6c;
+    color: #333446;
 }
 .qualification {
-    color: #89a9d8;
+    color: #7F8CAA;
 }
 .dpm {
     padding-top: 1vw;
@@ -85,7 +85,7 @@ table {
 td, th {
     padding: 0.5em;
     text-align: left;
-    border-bottom: 1px solid #a6c4f0;
+    border-bottom: 1px solid #B8CFCE;
 }
 .choose-boat {
     margin-top: 1.5em;
@@ -100,14 +100,14 @@ td, th {
     margin-right: auto;
 }
 .choices {
-    background: #062f6c;
-    color: #eeedec;
+    background: #333446;
+    color: #EAEFEF;
 }
 .deltas {
-    background: #76a9f6;
+    background: #a1b0d2;
     color: #232323;
 }
 .times {
     color: #232323;
-    background: #eeedec;
+    background: #EAEFEF;
 }
