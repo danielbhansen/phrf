@@ -100,7 +100,7 @@ if (storageAvailable("localStorage")) {
 /* Load the Inshore Data */
 async function getInshore() {
     try {
-        const response = await fetch('inshore.json?version=003');
+        const response = await fetch('inshore.json?version=004');
         if (response.ok) {
             data = await response.json();
             putFleetOptions();
